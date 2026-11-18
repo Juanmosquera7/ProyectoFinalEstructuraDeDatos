@@ -1,0 +1,21 @@
+﻿MONEDERO / PRIVATE LEDGER - INSTITUTIONAL NOIR
+RECURSOS VISUALES
+
+fuentes/: Inter (interfaces), IBM Plex Mono (numeros, IDs), Instrument Serif (titulos)
+iconos/: SVG de Lucide (https://lucide.dev) - Licencia ISC/MIT segun icono
+imagenes/montanas_monocromo.jpg: fotografia de montanas de Unsplash
+  Pagina original: https://unsplash.com/photos/black-and-white-mountains-under-white-sky-UMLx_wMqnpg
+  Licencia: https://unsplash.com/license
+
+FUENTES
+  https://github.com/google/fonts/tree/main/ofl/inter
+  https://github.com/google/fonts/tree/main/ofl/ibmplexmono
+  https://github.com/google/fonts/tree/main/ofl/instrumentserif
+  La licencia OFL se puede consultar en cada carpeta upstream.
+
+IMPORTANTE PARA JAVA SWING:
+- Font.createFont puede cargar archivos TTF desde el classpath con getResourceAsStream.
+- ImageIcon carga PNG/JPG, pero NO renderiza SVG de forma nativa.
+- Hay que convertir SVG a PNG o usar un renderizador SVG antes de mostrarlos.
+- Al compilar con javac, los recursos NO se copian automaticamente a out/.
+- El instalador no modifica ni reemplaza codigo Java.
